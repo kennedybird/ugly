@@ -1,0 +1,23 @@
+body {
+    background-color: blanchedalmond;
+}
+
+#poop {
+    position: absolute;
+    animation-name: poop; /* Change this to 'poop' to match the keyframe name */
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes poop {
+    from {
+        top: 0px;
+        left: 0px;
+    }
+
+    to {
+        top: 750px;
+        right: 0px;
+    }
+}
+
